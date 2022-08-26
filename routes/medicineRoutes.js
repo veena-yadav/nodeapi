@@ -6,7 +6,7 @@ const {protect}=require("../middleware/authMiddleware")
 const{getMedicine,addSample,getMedicinebyvalue}=require("../controllers/medicineController")
 
 
-router.get("/view",protect,getMedicine)
+router.get("/view",getMedicine)
 router.get("/",getMedicinebyvalue)
 
 router.post("/add",protect,addSample)

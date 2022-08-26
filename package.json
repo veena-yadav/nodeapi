@@ -30,5 +30,13 @@
   "devDependencies": {
     "nodemon": "^2.0.19"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManasiDeshmukh/nodeapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ManasiDeshmukh/nodeapi/issues"
+  },
+  "homepage": "https://github.com/ManasiDeshmukh/nodeapi#readme",
   "description": ""
 }
